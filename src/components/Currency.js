@@ -14,7 +14,11 @@ const Currency = () => {
 
     return (
     <form className='currency-form'>
-        <select value={currency} name="currency" onChange={handleOnChange}>
+        <select 
+            style={{height: "58px", borderRadius: "5px"}} 
+            value={currency} 
+            onChange={handleOnChange}
+        >
             <option value="$">&#36; Dollar</option>
             <option value="£">&pound; Pound</option>
             <option value="€">&euro; Euro</option>
