@@ -14,7 +14,9 @@ const Currency = () => {
 
     return (
     <form className='currency-form'>
+        <label for="currency">Currency: </label>
         <select 
+            name="currency"
             style={{height: "58px", borderRadius: "5px"}} 
             value={currency} 
             onChange={handleOnChange}

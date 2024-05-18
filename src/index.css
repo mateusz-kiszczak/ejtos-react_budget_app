@@ -12,11 +12,19 @@ code {
     monospace;
 }
 
+.currency-form {
+    background-color: green;
+    border-radius: 5px;
+    border: 1px solid lightgreen;
+    color: white;
+    padding-left: 1rem;
+}
+
 .currency-form select {
     background-color: green;
-    padding: 12px 16px;
     color: white;
     font-weight: 700;
+    border-color: transparent;
 }
 
 .currency-form select option {
